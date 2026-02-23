@@ -1,11 +1,11 @@
-# 🍽️ CaterServ - Modern Next.js Catering Website Clone
+# 🍽️ CaterServ - Modern Next.js Catering Website 
 
 ![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-f01bd4?style=for-the-badge&logo=framer&logoColor=white)
 
-CaterServ is a high-performance, pixel-perfect clone of the popular catering HTML template. This project demonstrates how to completely refactor a legacy Bootstrap/jQuery template into a **modern, scalable, and fully typed React application** using Next.js (App Router), TypeScript, and Tailwind CSS.
+CaterServ is a high-performance, pixel-perfect of the popular catering HTML template. This project demonstrates how to completely refactor a legacy Bootstrap/jQuery template into a **modern, scalable, and fully typed React application** using Next.js (App Router), TypeScript, and Tailwind CSS.
 
 ---
 
@@ -26,10 +26,7 @@ We eliminated all heavy third-party legacy libraries to ensure optimal performan
 
 | Legacy Feature (Original HTML) | Modern Implementation in this Repo |
 | :--- | :--- |
-| **WOW.js + Animate.css** | Replaced entirely with **Framer Motion** (`whileInView`, `staggerChildren`). Custom Spring animations replicate the exact `bounceInUp` feeling dynamically. |
-| **jQuery OwlCarousel** | Built a **100% custom Native React State Slider** using Tailwind Flex layouts for the Testimonials section (No extra dependencies). |
-| **jQuery CounterUp** | Implemented using Framer Motion's `animate()` function coupled with `useInView` for live, buttery-smooth number counting on scroll. |
-| **Bootstrap Grid & CSS** | Migrated fully to **Tailwind CSS**. Advanced features like card color inversions and hover logic are handled strictly via Tailwind's `group` and `group-hover` directives. |
+| **CSS** | Migrated fully to **Tailwind CSS**. Advanced features like card color inversions and hover logic are handled strictly via Tailwind's `group` and `group-hover` directives. |
 | **Repeating UI Elements** | DRY Architecture using TypeScript components (e.g., `<PageHeader />` for reusable breadcrumbs, mappings for rendering grid cards). |
 
 ---
